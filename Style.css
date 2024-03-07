@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(238, 11, 105);
+    font-family: "Pacifico", cursive;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-item a:hover{
+    color: rgb(238, 11, 105);
+
+}
+.far,.fab{
+    color: rgb(238, 11, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+.main{
+    background: url(./img/heroy.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.btn2{
+    height: 45px;
+    width: 40%;
+    color: white;
+    outline: none;
+    border: none;
+    background: rgb(238, 11, 105);
+    font-weight: bold;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid rgb(238, 11, 105);
+    background: transparent;
+    color: rgb(238, 11, 105);
+    transition: all 0.4s;
+}
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    cursor: all 0.4s;
+}
+.btnc:hover{
+    background: rgb(238, 11, 105);
+    color: white;
+    transition: all 0.4s;
+}
+.zoom-n-rotate{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoom-n-rotate img{
+    transition: transform .5s ease-in-out;
+}
+.zoom-n-rotate:hover img{
+    transform: scale(1.5);
+}
+.Products h1{
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+.Product{
+    background: rgb(246, 243, 243);
+}
+.discount{
+    height: 50px;
+    width: 50px;
+    background: rgb(238, 11, 105);
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.circle1{
+    height: 70px;
+    width: 70px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.mix:hover .circle1{
+    transition: all 0.4s;
+    opacity: 1;
+}
+.circle1:hover{
+    background: black;
+    color: white;
+    transition: all 0.4s;
+}
+.icon{
+    color: rgb(238, 11, 105);
+    font-size: 2.8rem;
+}
+.iconic p{
+    text-align: justify;
+    font-family: 'prompt' , sans-serif;
+} 
+.news{
+    background: black;
+    font-family: 'prompt' , sans-serif;
+
+}
+.news a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.news a:hover{
+    color: rgb(238, 11, 105);
+    padding-left: 5px;
+}
+.btns{
+    height: 50px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: white;
+    color: rgb(238, 11, 105);
+    font-weight: bold;
+}
+.sub{
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(53,49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.circle:hover{
+    background: white;
+    color: rgb(53,49, 49);
+}
+.copy{
+    color: rgb(53,49, 49);
+}
